@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
+  <description>Servicios Web</description>
+  <display-name>ws-tienda-ear</display-name>
+  <module>
+    <ejb>ws-tienda-ejb-1.0.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>tienda-ws-1.0.war</web-uri>
+      <context-root>/tienda-ws</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
