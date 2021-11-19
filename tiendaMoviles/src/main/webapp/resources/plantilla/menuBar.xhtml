@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+	<div class="sb-sidenav-menu-heading">Inicio</div>
+	<a class="nav-link" href="${request.contextPath}/inicio.xhtml">
+		<div class="sb-nav-link-icon">
+			<i class="fas fa-tachometer-alt"></i>
+		</div> Inicio
+	</a>
+	<div class="sb-sidenav-menu-heading">Administración</div>
+	<a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+		data-bs-target="#collapseLayouts" aria-expanded="false"
+		aria-controls="collapseLayouts">
+		<div class="sb-nav-link-icon">
+			<i class="fas fa-columns"></i>
+		</div> Administración
+		<div class="sb-sidenav-collapse-arrow">
+			<i class="fas fa-angle-down"></i>
+		</div>
+	</a>
+	<div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
+		data-bs-parent="#sidenavAccordion">
+		<nav class="sb-sidenav-menu-nested nav"> <a class="nav-link"
+			href="${request.contextPath}/pages/ventas.xhtml">Ventas</a>
+			<a class="nav-link"
+			href="${request.contextPath}/pages/proveedores.xhtml">Proveedores</a>
+			<a class="nav-link"
+			href="${request.contextPath}/pages/compras.xhtml">Compras</a>
+		</nav>
+	</div>
+
+	<div class="sb-sidenav-menu-heading">Productos</div>
+	<a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+		data-bs-target="#collapsePages" aria-expanded="false"
+		aria-controls="collapseLayouts">
+		<div class="sb-nav-link-icon">
+			<i class="fas fa-user"></i>
+		</div> Productos
+		<div class="sb-sidenav-collapse-arrow">
+			<i class="fas fa-angle-down"></i>
+		</div>
+	</a>
+	<div class="collapse" id="collapsePages" aria-labelledby="headingOne"
+		data-bs-parent="#sidenavAccordion">
+		<nav class="sb-sidenav-menu-nested nav"> <a class="nav-link"
+			href="${request.contextPath}/pages/clientes.xhtml">Cliente</a> <a
+			class="nav-link"
+			href="${request.contextPath}/pages/deudas.xhtml">Cuentas por Cobrar</a>
+		</nav>
+	</div>
+
+</ui:composition>

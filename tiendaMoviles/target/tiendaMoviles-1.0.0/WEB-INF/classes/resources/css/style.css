@@ -1,0 +1,42 @@
+
+.centerDiv {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.ui-widget {
+	font-size: 90%;
+}
+
+.ui-widget .ui-widget {
+	font-size: 100%;
+}
+
+h1 {
+	font-family: Arial, "Arial CE", "Lucida Grande CE", lucida,
+		"Helvetica CE", sans-serif;
+	border-bottom: 1px solid #AFAFAF;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	color: #D20005;
+}
+
+a:link, a:visited {
+	color: #045491;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+	color: #045491;
+	font-weight: bold;
+	text-decoration: underline;
+}

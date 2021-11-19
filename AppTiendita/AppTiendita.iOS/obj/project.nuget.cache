@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Znz03x/BNEXNvlPU6LUgg8Br0XdSbZRl6+MX7sTWg+bYVGiTHLKaiM7RUp7fwW48EeU6IdRf3X/iPN+IW+Cjg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JUAN\\Documents\\ProyectosMobiles\\AppTiendita\\AppTiendita.iOS\\AppTiendita.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JUAN\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
